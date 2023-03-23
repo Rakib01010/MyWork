@@ -5,6 +5,7 @@ function Classes(ClassName){
   const Class3=[];
   const Class4=[];
   const Class5=[];
+  //This is for class1
   if (ClassName==1){
     for(let c1=1;c1<5;c1++){
       if (c1==1){
@@ -30,6 +31,7 @@ function Classes(ClassName){
     }
     console.log("The number of students in Bangla, English,math and geography are:",Class1);
   }
+  //This is for class 2
   if (ClassName==2){
     for(let c2=1;c2<5;c2++){
       if (c2==1){
@@ -53,6 +55,7 @@ function Classes(ClassName){
     console.log("The number of students in Bangla, English,math, geography, history are:",Class2);
       
   }
+  //This is for class3
   if (ClassName==3){
     for(let c3=1;c3<5;c3++){
       if (c3==1){
@@ -77,6 +80,7 @@ function Classes(ClassName){
     console.log("The number of students in Bangla, English,math, geography, history are:",Class3);
     
   }
+  //  //This is for class4
   if (ClassName==4){
     for(let c4=1;c4<5;c4++){
       if (c4==1){
@@ -103,6 +107,7 @@ function Classes(ClassName){
     console.log("The number of students in Bangla, English,math, geography, history are:",Class4);
       
   }
+    //This is for class5
   if (ClassName==5){
     for(let c5=1;c5<5;c5++){
       if (c5==1){
@@ -129,7 +134,7 @@ function Classes(ClassName){
     }
     console.log("The number of students in Bangla, English,math, geography, history are:",Class5);
   }
-  // this is for class 1
+  // this is the total of class 1
   let sum1=sum2=sum3=sum4=sum5=0;
   if(ClassName==1){
     for(let a=1;a<Class1.length;a++){
@@ -137,28 +142,28 @@ function Classes(ClassName){
      }
      console.log("The total number that is out of 500 is:",sum1);
   }
-     //,this is for class 2
+  // this is the total of class 2
   else if(ClassName==2){
      for(let a=0;a<Class2.length;a++){
     sum2+=Class2[a];
     }
    console.log("The total number that is out of 500 is:",sum2);
   }
-  //this is for class 3
+// this is the total of class 3
   else if(ClassName==3){
      for(let a=0;a<Class3.length;a++){   
        sum2+=Class3[a];
      }
     console.log("The total number that is out of 500 is:",sum3);
     }
-    //this is for class 4
+    // this is the total of class 4
     else if(ClassName==4){
    for(let a=0;a<Class4.length;a++){
     sum2+=Class4[a];
    }
    console.log("The total number that is out of 500 is:",sum4);
     }
-   //this is for class 5
+  // this is the total of class 5
    else if(ClassName==5){
    for(let a=0;a<Class5.length;a++){
     sum2+=Class5[a];
@@ -171,4 +176,5 @@ function Classes(ClassName){
    
   
 }
+//Here we called the first function 
 Classes(1);
