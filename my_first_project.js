@@ -28,7 +28,7 @@ function Classes(ClassName){
       }
       
     }
-    console.log("The number of students in Bangla, English,math, geography, history are:"+Class1);
+    console.log("The number of students in Bangla, English,math, geography, history are:",Class1);
   }
   if (ClassName==2){
     for(let c2=1;c2<5;c2++){
@@ -53,7 +53,7 @@ function Classes(ClassName){
       }
      
     }
-    console.log("The number of students in Bangla, English,math, geography, history are:"+Class2);
+    console.log("The number of students in Bangla, English,math, geography, history are:",Class2);
       
   }
   if (ClassName==3){
@@ -81,7 +81,7 @@ function Classes(ClassName){
      
       
     }
-    console.log("The number of students in Bangla, English,math, geography, history are:"+Class3);
+    console.log("The number of students in Bangla, English,math, geography, history are:",Class3);
     
   }
   if (ClassName==4){
@@ -107,7 +107,7 @@ function Classes(ClassName){
       }
       
     }
-    console.log("The number of students in Bangla, English,math, geography, history are:"+Class4);
+    console.log("The number of students in Bangla, English,math, geography, history are:",Class4);
       
   }
   if (ClassName==5){
@@ -134,7 +134,7 @@ function Classes(ClassName){
      
       
     }
-    console.log("The number of students in Bangla, English,math, geography, history are:"+Class5);
+    console.log("The number of students in Bangla, English,math, geography, history are:",Class5);
   }
   // this is for class 1
   let sum1=sum2=sum3=sum4=sum5=0;
