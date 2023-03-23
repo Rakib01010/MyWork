@@ -1,4 +1,4 @@
-//exam subject based number calculator of a //secondary school 
+//exam subject based number calculator of a secondary school 
 function Classes(ClassName){
   const Class1=[];
   const Class2=[];
