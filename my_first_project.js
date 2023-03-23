@@ -135,35 +135,35 @@ function Classes(ClassName){
     for(let a=1;a<Class1.length;a++){
     sum1+=Class1[a];
      }
-     console.log("The total number that out of 500 is:",sum1);
+     console.log("The total number that is out of 500 is:",sum1);
   }
      //,this is for class 2
   else if(ClassName==2){
      for(let a=0;a<Class2.length;a++){
     sum2+=Class2[a];
     }
-   console.log("The total number that out of 500 is:",sum2);
+   console.log("The total number that is out of 500 is:",sum2);
   }
   //this is for class 3
   else if(ClassName==3){
      for(let a=0;a<Class3.length;a++){   
        sum2+=Class3[a];
      }
-    console.log("The total number that out of 500 is:",sum3);
+    console.log("The total number that is out of 500 is:",sum3);
     }
     //this is for class 4
     else if(ClassName==4){
    for(let a=0;a<Class4.length;a++){
     sum2+=Class4[a];
    }
-   console.log("The total number that out of 500 is:",sum4);
+   console.log("The total number that is out of 500 is:",sum4);
     }
    //this is for class 5
    else if(ClassName==5){
    for(let a=0;a<Class5.length;a++){
     sum2+=Class5[a];
    }
-   console.log("The total number that out of 500 is:",sum5);
+   console.log("The total number that is out of 500 is:",sum5);
   
    }else {
      console.log("error");
