@@ -64,16 +64,12 @@ function Classes(ClassName){
       }else if (c3==2){
         console.log(Class3.push(Number(prompt("give me English num:"))));
         continue;
-      }else if (c3==2){
+      }else if (c3==3){
         console.log(Class3.push(Number(prompt("give me math num:"))));
         continue;
-      }else if (c3==3){
+      }else if (c3==4){
         console.log(Class3.push(Number(prompt("give me geography num:"))));
         continue;
-      }else if (c3==4){
-        console.log(Class3.push(Number(prompt("give me history num:"))));
-        continue;
-        
       }
       else{
         console.log("student not found ");
