@@ -8,19 +8,19 @@ function Classes(ClassName){
   if (ClassName==1){
     for(let c1=1;c1<5;c1++){
       if (c1==1){
-        console.log(Class1.push(Number (prompt("give me bangla num:"))));
+        console.log(Class1.push(Number (prompt("give me bangla number:"))));
         continue;
       }else if (c1==2){
-        console.log(Class1.push(Number(prompt("give me English num:"))));
+        console.log(Class1.push(Number(prompt("give me English number:"))));
         continue;
       }else if (c1==2){
-        console.log(Class1.push(Number(prompt("give me math num:"))));
+        console.log(Class1.push(Number(prompt("give me math number:"))));
         continue;
       }else if (c1==3){
-        console.log(Class1.push(Number(prompt("give me geography num:"))));
+        console.log(Class1.push(Number(prompt("give me geography number:"))));
         continue;
       }else if (c1==4){
-        console.log(Class1.push(Number(prompt("give me history num:"))));
+        console.log(Class1.push(Number(prompt("give me history number:"))));
         continue;
       }
       else{
@@ -28,7 +28,7 @@ function Classes(ClassName){
       }
       
     }
-    console.log("The number of students in Bangla, English,math, geography, history are:",Class1);
+    console.log("The number of students in Bangla, English,math and geography are:",Class1);
   }
   if (ClassName==2){
     for(let c2=1;c2<5;c2++){
@@ -38,14 +38,11 @@ function Classes(ClassName){
       }else if (c2==2){
         console.log(Class2.push(Number(prompt("give me English num:"))));
         continue;
-      }else if (c2==2){
+      }else if (c2==3){
         console.log(Class2.push(Number(prompt("give me math num:"))));
         continue;
-      }else if (c2==3){
-        console.log(Class2.push(Number(prompt("give me geography num:"))));
-        continue;
       }else if (c2==4){
-        console.log(Class2.push(Number(prompt("give me history num:"))));
+        console.log(Class2.push(Number(prompt("give me geography num:"))));
         continue;
       }
       else{
