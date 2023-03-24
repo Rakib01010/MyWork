@@ -283,7 +283,7 @@ function Classes(ClassName){
 
      }
 
-     console.log("The total number that is out of 500 is:",sum1);
+     console.log("The total number that is out of 400 is:",sum1);
 
   }
 
