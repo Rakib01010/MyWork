@@ -31,27 +31,26 @@ function Classes(ClassName){
 
         continue;
 
-      }else if (c1==2){
+      }else if (c1==3){
 
         console.log(Class1.push(Number(prompt("give me math number:"))));
 
         continue;
 
-      }else if (c1==3){
+      }else if (c1==4){
 
         console.log(Class1.push(Number(prompt("give me geography number:"))));
 
         continue;
 
-      }else if (c1==4){
-
-        console.log(Class1.push(Number(prompt("give me history number:"))));
-
-        continue;
-
       }
 
-      else{
+
+
+
+
+
+       else{
 
         console.log("student not found ");
 
