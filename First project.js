@@ -349,7 +349,7 @@ function Classes(ClassName){
 
    }
 
-   
+  console.log("You got this grades in bangla ,englis, math and geography") ;
 
    for (let i=0;i<TotalClass.length;i++){
 
