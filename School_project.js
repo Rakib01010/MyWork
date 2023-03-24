@@ -396,5 +396,10 @@ function Classes(ClassName){
 
 //Here we called the first function 
 
-Classes(5);
+
+ var Clas=Number (prompt("Give that class results do you want to know between 1 to 5: "));
+
+Classes(Clas);
+
+
 
