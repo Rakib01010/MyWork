@@ -1,4 +1,4 @@
-
+// This is a project of secondary school results calculation
 function Classes(ClassName){
 
   const Class1=[];
